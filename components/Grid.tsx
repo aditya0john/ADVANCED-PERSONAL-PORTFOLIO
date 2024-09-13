@@ -7,12 +7,14 @@ function Grid() {
   return (
     <section>
       <Image
+        loading="lazy"
         src="/Me1.PNG"
-        className="grayscale mx-30 lg:mx-40 w-[60vw] lg:w-[40vw] h-[80vh] "
+        className="grayscale mx-30 mt-20 lg:mx-40 w-[60vw] lg:w-[40vw] h-[80vh] "
         alt="image"
         height={700}
         width={700}
       />
+
       <BentoGrid>
         {gridItems.map(
           ({
